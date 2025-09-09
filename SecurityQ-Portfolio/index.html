@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SecurityQ | Cybersecurity Engineer & Threat Hunter</title>
+  <meta name="description" content="SecurityQ (Quenton Carr) — Cybersecurity Engineer & Threat Hunter. DFIR, Threat Hunting, AI-powered defense, purple teaming, and secure lab builds.">
+  <meta property="og:title" content="SecurityQ | Cybersecurity Engineer & Threat Hunter">
+  <meta property="og:description" content="AI-powered defense, DFIR, Threat Hunting, Purple Teaming, Azure & Proxmox lab.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo.svg">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Quenton Carr",
+    "alternateName":"SecurityQ",
+    "jobTitle":"Cybersecurity Engineer & Threat Hunter",
+    "url":"https://securityq.org",
+    "sameAs":[
+      "https://github.com/SecurityQ",
+      "https://www.linkedin.com/in/securityq"
+    ]
+  }
+  </script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <img src="assets/logo.svg" alt="SecurityQ logo" class="logo">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact" class="btn">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero container">
+  <h1>SecurityQ <span class="accent">|</span> Cybersecurity Engineer & Threat Hunter</h1>
+  <p class="lead">AI‑powered defense • DFIR • Purple Teaming • Proxmox & Azure Lab • Ransomware Reverse Engineering</p>
+  <div class="cta-row">
+    <a class="btn" href="#projects">View Projects</a>
+    <a class="btn ghost" href="#resume">Download Resume</a>
+  </div>
+  <div class="badges">
+    <span>MITRE ATT&amp;CK</span>
+    <span>Microsoft 365/XDR</span>
+    <span>Security Onion</span>
+    <span>CUDA/PyTorch</span>
+  </div>
+</section>
+
+<section id="about" class="container card">
+  <h2>About</h2>
+  <p>I'm Quenton (“SecurityQ”), a Cybersecurity Engineer & Threat Hunter focused on threat‑informed, AI‑driven defense. I build hands‑on labs (Proxmox, Security Onion, Wazuh), automate investigations with Python, and connect signals across logs, memory, and network telemetry to reduce time‑to‑detect and time‑to‑contain.</p>
+  <ul class="pill-list">
+    <li>CISA VIRT (Region 6)</li>
+    <li>Entra ID / Azure Security</li>
+    <li>SIEM engineering & detections</li>
+    <li>OSINT & DFIR packaging</li>
+  </ul>
+</section>
+
+<section id="skills" class="container">
+  <h2>Core Skills</h2>
+  <div class="grid">
+    <div class="skill card"><h3>Threat Hunting</h3><p>Hypothesis‑driven hunts using ATT&amp;CK, Sigma, KQL, and Zeek/Suricata artifacts.</p></div>
+    <div class="skill card"><h3>DFIR &amp; Automation</h3><p>Python tooling for IOC triage, timeline building, and evidence packaging.</p></div>
+    <div class="skill card"><h3>Cloud &amp; Identity</h3><p>Microsoft 365/XDR, Entra ID P2, Conditional Access, Defender for Cloud.</p></div>
+    <div class="skill card"><h3>AI for Security</h3><p>LLM‑assisted playbooks, CUDA‑accelerated workloads, model guardrails.</p></div>
+  </div>
+</section>
+
+<section id="projects" class="container">
+  <h2>Featured Projects</h2>
+  <div class="grid projects">
+    <article class="card">
+      <h3>SilentQ DFIR</h3>
+      <p>Automated evidence collector & timeline builder. Packages artifacts for legal submission with hash manifests.</p>
+      <p class="meta">Python • KQL • Sigma • Timeline</p>
+      <a class="btn small" href="https://github.com/SecurityQ" target="_blank" rel="noopener">GitHub</a>
+    </article>
+    <article class="card">
+      <h3>AI GuardRail Lab</h3>
+      <p>Hands‑on environment to test LLM prompt‑injection defenses, OSINT enrichment, and policy‑based red teaming.</p>
+      <p class="meta">Supabase • Next.js • OpenAI</p>
+      <a class="btn small" href="https://github.com/SecurityQ" target="_blank" rel="noopener">GitHub</a>
+    </article>
+    <article class="card">
+      <h3>Home SOC</h3>
+      <p>Proxmox + Security Onion + Wazuh with SPAN VLANs, GPU‑assisted inference, and daily threat reports.</p>
+      <p class="meta">Proxmox • Zeek/Suricata • ELK</p>
+      <a class="btn small" href="https://github.com/SecurityQ" target="_blank" rel="noopener">GitHub</a>
+    </article>
+  </div>
+</section>
+
+<section id="resume" class="container card">
+  <h2>Resume</h2>
+  <p>Grab a PDF version or view highlights below.</p>
+  <a class="btn" href="resume.pdf" download>Download PDF</a>
+  <ul class="pill-list">
+    <li>Cybersecurity Engineer &amp; Threat Hunter</li>
+    <li>DFIR • SOC Engineering • Detections</li>
+    <li>Azure/Entra • M365/XDR • Proxmox</li>
+  </ul>
+</section>
+
+<section id="contact" class="container">
+  <h2>Contact</h2>
+  <p>Want to connect for roles, collaborations, or speaking? Reach me directly.</p>
+  <form name="contact" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="contact">
+    <div class="form-row">
+      <input required name="name" placeholder="Your Name">
+      <input required type="email" name="email" placeholder="Email">
+    </div>
+    <textarea required name="message" rows="6" placeholder="Message"></textarea>
+    <button class="btn" type="submit">Send</button>
+  </form>
+  <p class="contact-links">
+    <a href="mailto:contact@securityq.org">contact@securityq.org</a> · 
+    <a href="https://www.linkedin.com/in/securityq" target="_blank" rel="noopener">LinkedIn</a> · 
+    <a href="https://github.com/SecurityQ" target="_blank" rel="noopener">GitHub</a>
+  </p>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> SecurityQ — Hack Smarter. Win Bigger.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
