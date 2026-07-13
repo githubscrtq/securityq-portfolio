@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="SecurityQ">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="8" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.5" stop-color="#278BFF"/>
+      <stop offset="1" stop-color="#7A4DFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="#070B18"/>
+  <path fill="url(#bg)" fill-rule="evenodd" d="M43 18h38c16 0 29 13 29 29v34c0 7-2 13-6 18L89 84c1-2 2-4 2-7V50c0-7-6-13-13-13H50c-7 0-13 6-13 13v28c0 7 6 13 13 13h25l19 19H43c-16 0-29-13-29-29V47c0-16 13-29 29-29Zm22 43 13-4 34 34v19H93L62 74l3-13Z"/>
+</svg>
