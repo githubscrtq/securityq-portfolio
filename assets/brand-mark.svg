@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title description">
+  <title id="title">SecurityQ Q Pulse mark</title>
+  <desc id="description">A rounded geometric Q with a forward diagonal pulse</desc>
+  <defs>
+    <linearGradient id="pulse" x1="8" y1="8" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="0.52" stop-color="#278BFF"/>
+      <stop offset="1" stop-color="#7A4DFF"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#pulse)" fill-rule="evenodd" d="M42 8h44c19 0 34 15 34 34v44c0 8-3 16-8 22L94 90c2-2 4-6 4-10V46c0-9-7-16-16-16H46c-9 0-16 7-16 16v36c0 9 7 16 16 16h30l22 22H42C23 120 8 105 8 86V42C8 23 23 8 42 8Zm22 58 15-5 41 41v18h-18L61 79l3-13Z"/>
+</svg>

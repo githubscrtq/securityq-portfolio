@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">SecurityQ — Threat Hunting, DFIR, and AI-Powered Defense</title>
+  <desc id="description">SecurityQ social preview featuring the Q Pulse brand mark</desc>
+  <defs>
+    <linearGradient id="pulse" x1="136" y1="112" x2="430" y2="406" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.52" stop-color="#278BFF"/>
+      <stop offset="1" stop-color="#7A4DFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(210 180) rotate(35) scale(620 470)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12356B" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#070B18" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#8EA8D8" stroke-opacity="0.07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#070B18"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <path fill="url(#pulse)" fill-rule="evenodd" d="M174 112h136c59 0 106 47 106 106v136c0 26-9 50-25 68l-55-55c7-8 11-18 11-29V230c0-28-22-50-50-50H186c-28 0-50 22-50 50v112c0 28 22 50 50 50h94l68 68H174c-59 0-106-47-106-106V218c0-59 47-106 106-106Zm68 180 47-15 127 127v56h-56L233 333l9-41Z"/>
+  <text x="495" y="257" fill="#F4F8FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="94" font-weight="800" letter-spacing="-4">SecurityQ</text>
+  <text x="500" y="330" fill="#AAB9D2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="600">THREAT HUNTING • DFIR • AI-POWERED DEFENSE</text>
+  <rect x="500" y="375" width="180" height="5" rx="2.5" fill="#00E5FF"/>
+  <text x="500" y="438" fill="#DDE8FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">Find the signal. Preserve the proof.</text>
+</svg>
